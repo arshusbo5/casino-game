@@ -29,7 +29,7 @@ Royal Casino Game is an engaging command-line gambling simulation that offers pl
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/royal-casino.git
+git clone https://github.com/Syntaxtrail/royal-casino.git
 cd royal-casino
 ```
 

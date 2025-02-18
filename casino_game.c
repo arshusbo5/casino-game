@@ -4,7 +4,7 @@
 #include <time.h>
 
 #define MAX_ROUNDS 5 
-#define REDEEM_CODE "ROYAL500"
+#define REDEEM_CODE "ROYAL2025"
 #define MAX_PLAYERS 100
 #define MAX_NAME_LENGTH 50
 
@@ -40,8 +40,8 @@ int main() {
                 fgets(playerName, MAX_NAME_LENGTH, stdin);
                 playerName[strcspn(playerName, "\n")] = 0;
 
-                printf("\nyour balance :$0.00\n\n");
-                printf("Available redeem code 'ROYAL500'\n\n");
+                printf("\n your balance :$0.00\n\n");
+                printf("Available redeem code 'ROYAL2025'\n\n");
                 printf("Enter the redeem code to start: ");
                 scanf("%s", enteredCode);
 
@@ -59,7 +59,7 @@ int main() {
                     playGame(&money);
 
                     if (money <= 0) {
-                        printf("You're out of money! Game Over.\n\n");
+                        printf("You're out of money  ! Game Over.\n\n");
                         break;
                     }
                 }
